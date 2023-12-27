@@ -3,6 +3,7 @@ public:
     long long maximumSumOfHeights(vector<int>& maxHeights) {
         int n=maxHeights.size();
         int a[n];
+        int kk;
         int max=-1;
         for(int k=0;k<n;k++){
             a[k]=maxHeights[k];
